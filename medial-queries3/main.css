@@ -1,3 +1,153 @@
 body {
   background: peachpuff;
 }
+
+/* Responsive Mobile Version */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: auto;
+}
+
+.a {
+  background-color: red;
+  border: 1px solid black;
+  margin: 5px;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b-g {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.b {
+  background-color: green;
+  border: 1px solid black;
+  margin: 5px;
+  height: 10vh;
+  width: 25vw;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c {
+  background-color: blue;
+  border: 1px solid black;
+  margin: 5px;
+  height: 10vh;
+  width: 25vw;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d {
+  background-color: pink;
+  border: 1px solid black;
+  margin: 5px;
+  height: 10vh;
+  width: 25vw;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.e {
+  background-color: purple;
+  border: 1px solid black;
+  margin: 5px;
+  height: 10vh;
+  width: 25vw;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f {
+  background-color: orange;
+  border: 1px solid black;
+  margin: 5px;
+  height: 10vh;
+  width: 25vw;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.g {
+  background-color: yellow;
+  border: 1px solid black;
+  margin: 5px;
+  height: 10vh;
+  width: 25vw;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h {
+  background-color: brown;
+  border: 1px solid black;
+  margin: 5px;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive PC/Desktop Version */
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+  }
+
+  .a {
+    background-color: red;
+    border: 1px solid black;
+    margin: 5px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .b-g {
+    width: 50vw;
+    flex-grow: 1;
+  }
+
+  .h-container {
+    flex-grow: 1;
+  }
+
+  .h {
+    background-color: brown;
+    border: 1px solid black;
+    margin: 5px;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

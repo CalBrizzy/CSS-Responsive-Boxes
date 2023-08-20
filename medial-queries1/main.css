@@ -1,3 +1,72 @@
 body {
   background: blanchedalmond;
 }
+
+*{
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  margin: 10px;
+  height: 18vh;
+  width: auto;
+  border: 2px solid black;
+}
+
+.b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 55vh;
+  width: auto;
+  background-color: green;
+  border: 2px solid black;
+}
+
+.c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 18vh;
+  width: auto;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+@media (min-width: 601px){
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a {
+  height: 18vh;
+  width: 100vw;
+  background-color: red;
+  border: 2px solid black;
+  }
+  .b {
+  height: 70vh;
+  width: 55vw;
+  flex-grow: 1;
+  background-color: green;
+  border: 2px solid black;
+  }
+  .c {
+  height: 70vh;
+  width: 32vw;
+  background-color: blue;
+  border: 2px solid black;
+}
+}
